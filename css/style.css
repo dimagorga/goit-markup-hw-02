@@ -1,3 +1,221 @@
 body{
-font-family: 'Roboto', sans-serif;   
+font-family: 'Roboto', sans-serif;}
+
+/*========HEADER======*/
+.navigation{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
 }
+
+.logo{
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.192;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: #000000;
+}
+.logo-left-side{
+    color: #2196F3;
+}
+.header-links-list{
+list-style-type: none;
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #212121;
+}
+
+.header-link:hover,
+.header-link:focus{
+    color: #2196F3;    
+}
+
+.contacts-list{
+    list-style-type: none;
+}
+
+.contacts-link{ 
+    font-style: normal;   
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #757575;   
+}
+
+.contacts-link:hover,
+.contacts-link:focus{
+    color: #2196F3;
+}
+/*========HEADER======*/
+
+/*========MAIN========*/
+.main-title{
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.363;    
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    /*color: #FFFFFF;*/
+}
+.button-link{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+.description-list{
+    list-style-type: none;
+}
+
+.description-title{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.142;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.description-item{
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 36px;
+    line-height:1.166;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.images-list{
+    list-style-type: none;
+}
+
+.team-list{
+    list-style-type: none;
+}
+
+.team-member{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+.team-member-position{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.187;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+}
+
+/*========MAIN========*/
+
+/*========FOOTER=======*/
+.address-list{
+    list-style-type: none;
+    }
+
+.address-list-item-link.place{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    /*color: #FFFFFF;*/
+}
+.address-list-item-link{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.714;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    /*color: rgba(255, 255, 255, 0.6);*/
+
+}
+
+.address-list-item-link:hover,
+.address-list-item-link:focus{
+  color: #2196F3;;  
+}
+
+/*========FOOTER=======*/
+
+/*===========portfolio=========*/
+.buttons-list{
+    list-style-type: none;
+}
+
+.buttons-link-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.625;
+    text-align: center;
+    letter-spacing: 0.03em;    
+    color: #212121;
+    background: #F5F4FA;
+}
+
+
+.buttons-link-item:hover,
+.buttons-link-item:focus{
+    background: #2196F3;
+    color: #FFFFFF;
+}
+
+.portfolio-list{
+    list-style-type: none;
+}
+
+.portfolio-link{
+    text-decoration: none;
+}
+
+.porfolio-description-title{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: #212121;
+}
+
+.porfolio-description{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.03em;
+    color: #757575;
+
+}
+/*===========portfolio=========*/
