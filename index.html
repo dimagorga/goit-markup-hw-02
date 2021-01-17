@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <title>Главная</title>
 </head>
 <body>
@@ -23,12 +23,11 @@
                     <a class="header-link" href="./portfolio.html">Портфолио</a>                    
                 </li>
                 <li class="header-links-item">
-                    <a class="header-link" href="#contacts">Контакты</a>
+                    <a class="header-link" href="/">Контакты</a>
                 </li>
             </ul>
         </nav>
         <!--Contacts block-->
-        <address class="contacts">
             <ul class="contacts-list">
                 <li class="contacts-list-item">
                     <a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
@@ -37,11 +36,10 @@
                     <a class="contacts-link" href="tel:+380961111111">+38 096 111 11 11</a>
                 </li>
             </ul>                       
-        </address>
     </header>
     <main>
         <!--Button-section-->
-        <section>
+        <section class="hero-section">
             <h1 class="main-title">Эффективные решения для вашего бизнеса</h1>
             <button class="button-link" type="button">Заказать услугу</button>
         </section>
@@ -109,11 +107,11 @@
             </ul>
         </section>
     </main>
-    <footer>
-        <a class="logo" href="./index.html"> 
+    <footer class="footer">
+        <a class="logo bottom" href="./index.html"> 
             <span class="logo-left-side">Web</span>Studio
         </a> 
-        <address id="contacts">
+        <address>
             <ul class="address-list">
                 <li class="address-list-item" >
                     <a class="address-list-item-link place" href="https://goo.gl/maps/CCKSbVT9iBLs1J1g9" target="_blank">г. Киев, пр-т Леси Украинки, 26</a>
